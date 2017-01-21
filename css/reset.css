@@ -1,0 +1,30 @@
+
+*{
+	margin: 0; 
+	padding: 0;
+	border: 0;
+	font-family: 'Muli', sans-serif;
+	vertical-align: baseline;
+	line-height: 1;
+	letter-spacing: 0.4px;
+/*	outline: 1px dotted red;
+*/}
+
+
+img,button {display: block;}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.clrfix:before, .clrfix:after {  content: "";  
+display: table; } 
+
+.clrfix:after {
+clear: both; } 
+
+.clrfix {  zoom: 1; /* IE6&7 */ }
+

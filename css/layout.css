@@ -1,0 +1,160 @@
+
+.header-wrapper{
+	width: 100%;
+	background: #7dd8e8;
+}
+.header{
+	max-width: 60em;
+	margin: 0 auto;
+/*	outline: 1px solid red;
+*/}
+.header-left{
+	float: left;
+		width: 67.70833333333330%;
+}
+.logo-container{
+	float: left;
+	width: 291px;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+.logo-container img{
+	width: 100%;
+}
+.search-container{
+	float: left;
+		width: 51.69230769230770%;
+		padding-left: 20px;
+	padding-top: 40px;
+
+}
+img.search-icon{
+	padding: 10px 0;
+	display: none;
+}
+.search-container input[type="text"]{
+	float:left;
+	width: 75.00%;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 10px;
+	padding: 3px 16px 3px 8px;
+/*	padding-right:7%;
+*/	border-radius: 8px;
+	background: #cbeff6;
+
+}
+.search-container input[type="image"]{
+	
+	margin-left: -15px;
+
+}
+.search-container button{
+	float:right;
+	width: 15.77380952380950%;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 10px;
+	padding: 5px 0;
+	background: #274f56;
+	color: white;
+	border-radius: 8px;
+}
+.header-right{
+	float: right;
+	width: auto;
+	padding-top: 25px;
+}
+.current-user{
+	padding-bottom: 9px;
+	text-align: right;	
+}
+.current-user a{
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.settings-container{
+	float: right;
+	width: auto;
+}
+.settings-container li{
+	float: left;
+	width: auto;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 11px;
+	padding: 0 5px;
+	border-right: 1px solid grey;
+}
+.settings-container li:last-child{
+	border: none;
+	padding-right: 0px;
+}
+.body-wrapper{
+	width: 100%;
+}
+.col-3-right-layout{
+	max-width: 60em;
+	margin: 31px auto;
+}
+.main {
+	float: left;
+	width: 80.20833333333330%;
+}
+.col-l-left{
+	float: left;
+	width: 24.67532467532470%;
+}
+
+.col-main{
+	float: right;
+	width: 67.53246753246750%;
+	padding: 0 3.89610389610390%;
+}
+.content-img{
+	float: left;
+	width: 13.46153846153850%;
+}
+.content-img img{
+	width: 100%
+}
+.content-detail{
+	float: left;
+	width: auto;
+}
+.back-to-top-container{
+	width: auto;
+	padding: 5px 0;
+}
+.back-to-top-container span{
+	float: right;
+	width: auto;
+	padding: 10px 15px;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 11px;
+	background: url("../images/up-arrow.png") no-repeat 100% 40%;
+}
+
+.col-right{
+	float: right;
+	width: 19.79166666666670%;
+}
+
+.footer-wrapper{
+	width: 100%;
+	background: #dddddd;
+}
+.footer{
+	max-width: 60em;
+	margin: 0 auto; 
+}
+.footer-menu{
+	float: left;
+	width: auto;
+}
+.footer-menu li{
+	float: left;
+	width: auto;
+}
+.footer span{
+	float: right;
+}
+

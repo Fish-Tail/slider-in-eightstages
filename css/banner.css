@@ -1,0 +1,64 @@
+.banner-wrapper{
+	width: 100%;
+}
+.banner{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.banner-image-container{
+	max-width: 60em;
+	overflow: hidden;
+	height: 250px;
+	position: relative;
+}
+.btn1, .btn2 {
+	font-size: 30px;
+    position: absolute;
+    top: 38%;
+    padding: 16px 20px;
+    background: grey;
+    opacity: .35;
+}
+.btn1 {
+	left: 0%;
+}
+.btn2 {
+	left: 94%;
+}
+.bottom-buttons{
+	position: absolute;
+	left: 40%;
+	top: 80%;
+}
+.bottom-buttons li{
+	font-size: 40px;
+	color: white;
+	float: left;
+	opacity: .65;
+	border-radius: 50%;
+	line-height: 25px;
+	padding: 0 10px;
+}
+.bottom-buttons li:hover{
+	opacity: 1;
+	font-size: 45px;
+	cursor: pointer;
+}
+
+.scrollable-container{
+	width: 5000px;
+	/*transition: all .5s;*/
+}
+.scrollable-container-2{
+	width: 5000px;
+/*	display: none;
+*/}
+.scrollable-container-3{
+	width: 5000px;
+/*	display: none;
+*/}
+.banner-images{
+	float: left;
+	width: auto;
+	
+}

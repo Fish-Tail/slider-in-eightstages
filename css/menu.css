@@ -1,0 +1,81 @@
+.menu-wrapper{
+	width: 100%;
+	background: #f5f5f5;
+}
+.menu{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.menu-left{
+	float: left;
+	width: auto;
+}
+
+.menu-left li{
+	float: left;
+}
+.menu-left a{
+	display: block;
+	padding: 13px 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.menu-left a:hover{
+	background: #2fc1d9;
+	color: white;
+}
+.menu-right{
+	float: right;
+	width: auto;
+	position: relative;
+	}
+img.menu-burger{
+	width: 30px;
+	float:left;
+	margin-top: 4px;
+	display: none;
+}
+.menu-right li{
+	float: left;
+	width: auto;
+}
+
+
+.menu-right a{
+	display: block;
+	padding: 14px 10px 12px 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: grey;
+}
+.menu-right a.has-notification{
+	color: black;
+}
+.menu-right li:last-child a{
+	padding-right: 0px;
+}
+.menu-right a:hover{
+	text-decoration: underline;
+}
+.menu-right a:hover span{
+	background: none;
+}
+.menu-right span{
+	float: left;
+	margin: 0 10px;
+	margin-top: -2px;
+	background: none;
+}
+ul.burger-list{
+	position: absolute;
+	top: 30px;
+	left: 5px;
+	background: #ddd;
+	display: none;
+}
+ul.burger-list li{
+	float: none;
+}
+ul.burger-list a{
+	z-index: 40;
+}
